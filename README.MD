@@ -45,7 +45,7 @@ utils/vis_tool.py 내부에서  Visualizer class 내부의 생성자 함수에�
 ## 4. Train  
 
 train.py 파일을 실행시킨다. (train.py 파일 내부에서 epoch를 변경할 수 있다.)  
-다른 hyperparameter를 변경하고자 하는 경우는 utils/config.py 내부에서 값을 변경해준다. 
+다른 hyperparameter를 변경하고자 하는 경우는 utils/config.py 내부에서 값을 변경해준다. 또한 voc_data_dir를 data가 있는 VOC2007 경로로 설정해준다
 본인이 설정한 ip주소:port 번호로 접속을 하면 아래와 같이 훈련과정을 살펴보고 그 때의 mAP값을 측정할 수 있다.   
 
 #### Training Loss  
