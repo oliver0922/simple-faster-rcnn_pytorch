@@ -4,19 +4,17 @@
 
 (1) Download KITTI Dataset and Upload on Gdirve  
 
-link= http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=2d  
-
 1. VOC2007 폴더를 생성한 후 내부에 JPEGImages, ImageSets, Annotations 3개의 폴더를 생성한다.  
 
 ![image](https://user-images.githubusercontent.com/69920975/122263210-2362c000-cf11-11eb-9ae1-d26932e05be6.png)
 
 2. ImageSets 폴더 내부에 Main 폴더를 생성한다.
 
-3. 위 링크에 접속하여 left color images of objec data set(12GB)와 training labels of object data set(5MB)를 다운로드한다.  
+3. 링크(link= http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=2d)에 접속하여 left color images of objec data set(12GB)와 training labels of object data set(5MB)를 다운로드한다.  
 
 4. gdrive/VOC2007 내부에 압축파일을 업로드한다. 
 
-6. JPEGImages 폴더 내부에 image 압축파일을 넣고 해제하고, data_object_label_2 압축파일을 해제한다. 
+6. VOC2007 폴더 내부에 image, label 압축파일을 넣고 해제한다. 
 
 ![image](https://user-images.githubusercontent.com/69920975/122277916-6036b300-cf21-11eb-8cc2-9f23529d8510.png)
 
