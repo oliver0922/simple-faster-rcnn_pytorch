@@ -14,26 +14,29 @@ link= http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=2d
 
 3. 위 링크에 접속하여 left color images of objec data set(12GB)와 training labels of object data set(5MB)를 다운로드한다.  
 
+4. gdrive/VOC2007 내부에 압축파일을 업로드한다. 
 
-4. train 폴더 내부의 7481개의 image의 확장자를 png에서 jpg로 변경해준다. 
+6. JPEGImages 폴더 내부에 image 압축파일을 넣고 해제하고, data_object_label_2 압축파일을 해제한다. 
 
-5. 다시 압축을 한 후 gdrive에 업로드 해준다.  
+![image](https://user-images.githubusercontent.com/69920975/122277916-6036b300-cf21-11eb-8cc2-9f23529d8510.png)
 
-6. JPEGImages 폴더 내부에 image 압축파일을 넣고 해제한 후 .
+7. repository를 clone 한다.
 
 (2) Data Preprocessing  
 
 1. (Optional) KITTI Dataset의 class ('Car', 'Van', 'Truck','Pedestrian', 'Person_sitting', 'Cyclist', 'Tram','Misc' or 'DontCare') 의 개수는 총 9개이다.  
-class의 개수를 줄이고 싶다면 Fine tuning을 위해 classnamechange.py 파일 내부의 class를 변경해주고 실행해준다. 
+class의 개수를 줄이고 싶다면 Fine tuning을 위해 classnamechange.py 파일 내부의 class를 변경해주고 실행해준다.  
+
+![image](https://user-images.githubusercontent.com/69920975/122277987-73e21980-cf21-11eb-8ccd-f91759339c24.png)
 
 2. Faster R-CNN에 사용될 dataset은 Pascal VOC dataset 형식(xml 확장자파일)이므로 KITTI Dataset label(txt 확장자파일)을 변경해줄 필요가 있다.
 따라서 txt_to_xml.py 파일을 실행해준다. 
 
 3. trainval, test dataset으로 나누기 위해 ceat_train_test_txt.py 파일을 실행시켜준다. 
 
-## 2. Git clone and import packages
+## 2. Import packages
 
-git repository를 clone 하고 requirements.txt 파일을 실행시켜 내부의 package들을 import 한다.
+requirements.txt 파일을 실행시켜 내부의 package들을 import 한다.
 
 ## 3. Setting IP and Port for Using visdom  
 
