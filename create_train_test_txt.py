@@ -44,7 +44,7 @@ num_test = list(set(txt_list).difference(set(num_trainval)))
 num_test.sort()  
 print(num_test, end = '\n\n')  
 
-pdb.set_trace()  
+#pdb.set_trace()  
 
 Main_path = './ImageSets/Main/'  
 train_test_name = ['trainval','train','val','test']  
