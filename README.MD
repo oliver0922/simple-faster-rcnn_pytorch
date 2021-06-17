@@ -76,6 +76,12 @@ train.py 파일을 실행시킨다. (train.py 파일 내부에서 epoch를 변�
 
 ![image](https://user-images.githubusercontent.com/69920975/122258755-5eaec000-cf0c-11eb-89eb-3fc429bfbfd0.png)  
 
+
+### Model Structure  
+
+![model_all](https://user-images.githubusercontent.com/69920975/122383613-f3193100-cfa5-11eb-8274-8004803e48a2.png)
+
+
   
 
 
