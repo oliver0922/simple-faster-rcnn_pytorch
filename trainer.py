@@ -248,7 +248,7 @@ def _smooth_l1_loss(x, t, in_weight, sigma):
     y = (flag * (sigma2 / 2.) * (diff ** 2) +
          (1 - flag) * (abs_diff - 0.5 / sigma2))
     return y.sum()
-    # Legularization 1 Loss 사용.
+    ## Legularization 1 Loss 사용.
 
 
 def _fast_rcnn_loc_loss(pred_loc, gt_loc, gt_label, sigma):
